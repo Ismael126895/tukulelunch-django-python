@@ -2,9 +2,9 @@ from django.db import models
 from django.db.models.deletion import CASCADE
 from django.urls import reverse
 
-#set the deadline as November 27th 
+#set the deadline as January 27th 
 import datetime
-deadline_date = datetime.date(2021,11,27)
+deadline_date = datetime.date(2024,01,27)
 
 #Category model of the items that I will analogously add and sell to church members
 class Category(models.Model):
