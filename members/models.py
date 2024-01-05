@@ -142,6 +142,8 @@ class Payment(models.Model):
         super(Payment,self).save(*args,**kwargs) 
     def __str__(self):
         return self.pay_commitment.name
+
+#payments with incomplete information
 class GhostPayment(models.Model):
     name = models.CharField(max_length=100)
     phone_number = models.CharField(max_length=250)
