@@ -23,9 +23,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    # local apps
-    "members.apps.MembersConfig",
-    # 3rd party apps
+    # custom apps
     "members",
     "crispy_forms",
     "widget_tweaks",
